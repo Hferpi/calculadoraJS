@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
+   <link rel="stylesheet" href="style.css">
+   <title>Calculadora</title>
+</head>
+
+<body>
+   <div class="calculadora col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="cuadro-izq">
+         <h5>Bill</h5>
+         <div> <span class="dolar">$</span><input style="text-align: right; width: 80%;" type="text" placeholder="0" id="dinero">
+         </div>
+         <div style="display: block; gap: 5px; ">
+            <h5>Select tip %</h5>
+            <button class="propina" id="prop1" data-percent="0.05">5%</button>
+            <button class="propina" id="prop2" data-percent="0.1">10%</button>
+            <button class="propina" id="prop3" data-percent="0.15">15%</button>
+            <br>
+            <br>
+            <button class="propina" id="prop4" data-percent="0.2">20%</button>
+            <button class="propina" id="prop5" data-percent="0.25">25%</button>
+
+         </div>
+         <p>Number of people</p>
+         <div><img class="gente" src="img/person_24dp_666666_FILL0_wght400_GRAD0_opsz24.png" alt="users"><input
+               style="text-align: right; width: 80%;" type="text" id="personas" placeholder="0"></div>
+      </div>
+      <div class="cuadro-der" style="color: white;">
+         <div style="flex-direction: row; display: flex; justify-content: space-around;">
+            <div>
+
+               <h5>Tip amount</h5>
+
+
+               <h6 style="opacity: 0.6;">/person</h6>
+
+            </div>
+            <h2 id="cantidad" style="color: #22C0A7; font-weight: 600;">$0.00</h2>
+         </div>
+
+         <div style="flex-direction: row; display: flex; justify-content: space-around;">
+            <div>
+               <div>
+                  <h5>Total</h5>
+
+                  <h6 style="opacity: 0.6;">/person</h6>
+               </div>
+            </div>
+            <h2 id="total" style="color: #22C0A7; font-weight: 600;">$0.00</h2>
+         </div>
+
+      </div>
+
+
+   </div>
+
+
+</body>
+<script type="text/javascript" src="java.js"></script>
+</html>
