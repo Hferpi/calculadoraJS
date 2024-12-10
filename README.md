@@ -1,4 +1,4 @@
-#<h1>calculadoraTipsJS</h1>
+<h1>calculadoraTipsJS</h1>
 
 Ejercicio de clase: 
 <br>
