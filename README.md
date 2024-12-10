@@ -2,6 +2,7 @@
 Ejercicio de clase: 
 <br>
 <div align="center">
+  <img src="img/htmls_css_js-removebg-preview.png" alt="banner">
 ![](img/htmls_css_js-removebg-preview.png)
 </div>
 <br>
