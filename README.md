@@ -1,4 +1,4 @@
-# calculadoraJS
+# calculadoraTipsJS
 Calculadora hecha usando html, css y JavaScript
 <br>
 
